@@ -1,9 +1,14 @@
-$("document").ready(function(){
-	$("input").focus(function(){
-		$(this).css("background-color", "yellow");
+$(document).ready(function(){
+	$("input").on({
+		focus: function(){
+			$(this).css("background-color", "yellow");
+		},
+		blur: function(){
+			$(this).css("background-color", "green");
+		}
 	});
-	$("input").blur(function(){
-		$(this).css("background-color", "green");
+	$("input[type=submit]").dblclick(function(){
+		$(this).hide().fadeIn(5000);
 	});
 });
 
