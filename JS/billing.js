@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$("input").on({
+	$("input[type=text]").on({
 		focus: function(){
 			$(this).css("background-color", "yellow");
 		},
