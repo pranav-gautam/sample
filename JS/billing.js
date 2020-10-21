@@ -8,7 +8,7 @@ $(document).ready(function(){
 		}
 	});
 	$("input[type=submit]").dblclick(function(){
-		$(this).hide().fadeIn(5000);
+		$(this).hide(1000).fadeIn(1000);
 	});
 });
 
