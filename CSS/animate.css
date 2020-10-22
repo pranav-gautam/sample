@@ -1,0 +1,23 @@
+h1{
+	margin-left: 475px;
+	color: #350B9C;
+}
+
+button{
+	background-color: #000000;
+	color: #FFFFFF;
+	border: lightblue 2px outset;
+	margin-left: 595px;
+}
+
+div{
+	background-color: #00FF43;
+	margin: 0 auto;
+	height: 200px;
+	width: 200px;
+	font-size: 0px;
+}
+
+hr{
+	border: 2px solid #350B9C;
+}
