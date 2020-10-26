@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Filtering</title>
+	<link rel="icon" type="image/png" href="G:/HTML5/Images/PG.png">
+	<link rel="stylesheet" href="filtering.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="filtering.js"></script>
+</head>
+<body>
+	<h2>Filterable Table</h2>
+	<p>Type something in the input field to search the table for first names, last names or emails:</p>  
+	<input id="myInput1" type="text" placeholder="Search..">
+	<table>
+		<thead>
+			<tr>
+				<th>Firstname</th>
+				<th>Lastname</th>
+				<th>Email</th>
+			</tr>
+		</thead>
+		<tbody id="myTable">
+			<tr>
+				<td>Betu</td>
+				<td>Sisodiya</td>
+				<td>betu@ganja.com</td>
+			</tr>
+			<tr>
+				<td>Soham</td>
+				<td>Chaturvedi</td>
+				<td>soham@jabalpur.com</td>
+			</tr>
+			<tr>
+				<td>Shikhar</td>
+				<td>MC</td>
+				<td>shikhar@bhadwa.com</td>
+			</tr>
+			<tr>
+				<td>Gathan</td>
+				<td>Jain</td>
+				<td>gathan@legit.com</td>
+			</tr>
+		</tbody>
+	</table>
+	<br>
+	<h2>Filterable List</h2>
+	<p>Type something in the input field to search the list for specific items:</p>  
+	<input id="myInput2" type="text" placeholder="Search..">
+	<ul id="myList">
+		<li>Comb</li>
+		<li>Phone</li>
+		<li>Tripod</li>
+		<li>Rope</li>
+	</ul>
+	<br>
+	<h2>Filter Anything</h2>
+	<p>Type something in the input field to search for a specific text inside the div element with id="myDIV":</p>
+	<input id="myInput3" type="text" placeholder="Search..">
+	<div id="myDIV">
+		<p>Paragraph 1</p>
+		<div id="yourDIV">Div</div>
+		<br>
+		<button>Fuck</button>
+		<button>Shit</button>
+		<p>Paragraph 3</p>
+	</div>
+</body>
+</html>
