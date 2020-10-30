@@ -1,10 +1,10 @@
 function light(sw){
 	var pic;
 	if (sw==0){
-		pic="pic_bulbon.gif";
+		pic="/Images/pic_bulbon.gif";
 	}
 	else{
-		pic="pic_bulboff.gif";
+		pic="/Images/pic_bulboff.gif";
 	}
 	document.getElementById('img1').src=pic;
 }
