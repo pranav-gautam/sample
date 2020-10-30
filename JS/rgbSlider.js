@@ -4,7 +4,7 @@ var body = document.body,
     b = document.querySelector('#b'),
     outputR = document.querySelector('#outputR'),
     outputG = document.querySelector('#outputG'),
-    b_out = document.querySelector('#b_out'),
+    outputB = document.querySelector('#outputB'),
     hexVal_out = document.querySelector('#hexVal');
  
 function setColor(){
