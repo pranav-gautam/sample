@@ -1,0 +1,18 @@
+div{
+	background-color: tomato;
+	border: 3px solid black;
+	margin: 50px;
+	width: 200px;
+	height: 200px;
+	line-height: 180px;
+	text-align: center;
+	font-size: 0px;
+	transition: font-size 0s, width 2s, height 2s, transform 2s;
+}
+
+div:hover{
+	height: 300px;
+	width: 300px;
+	transform: rotate(360deg);
+	font-size: 5em;
+}
