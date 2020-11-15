@@ -7,7 +7,7 @@ div{
 	line-height: 180px;
 	text-align: center;
 	font-size: 0px;
-	transition: font-size 0s, width 2s, height 2s, transform 2s;
+	transition: font-size 0s, background 2s, width 2s, height 2s, transform 2s;
 }
 
 div:hover{
@@ -15,4 +15,5 @@ div:hover{
 	width: 300px;
 	transform: rotate(360deg);
 	font-size: 5em;
+	background: blue;
 }
